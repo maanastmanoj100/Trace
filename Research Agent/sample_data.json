@@ -1,0 +1,32 @@
+{
+  "research_id": "R001",
+  "question": "Does AI improve healthcare diagnosis?",
+  "sources": [
+    {
+      "source_id": "S001",
+      "title": "Example Research Paper",
+      "url": "https://example.com/paper",
+      "published_date": null,
+      "retrieved_date": "2026-10-30",
+      "snippet": "Example evidence text for testing only."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim_text": "AI can improve diagnostic accuracy.",
+      "source_ids": ["S001"],
+      "verification": {
+        "status": "insufficient_evidence",
+        "evidence": [],
+        "reason": "Not verified yet."
+      },
+      "contradictions": []
+    }
+  ],
+  "report": {
+    "summary": "",
+    "key_findings": [],
+    "limitations": []
+  }
+}
